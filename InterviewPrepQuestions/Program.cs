@@ -10,6 +10,9 @@ namespace InterviewPrepQuestions
     {
         static void Main(string[] args)
         {
+            AvgContiguous avgContiguous = new AvgContiguous();
+            double[] result = avgContiguous.FindAverages(5, new int[] { 1, 3, 2, 6, -1, 4, 1, 8, 2 });
+            Console.ReadLine();
         }
     }
 }
