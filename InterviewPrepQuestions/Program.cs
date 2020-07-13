@@ -10,8 +10,8 @@ namespace InterviewPrepQuestions
     {
         static void Main(string[] args)
         {
-            AvgContiguous avgContiguous = new AvgContiguous();
-            double[] result = avgContiguous.FindAverages(5, new int[] { 1, 3, 2, 6, -1, 4, 1, 8, 2 });
+            SmallestSubarraySum smallestSum = new SmallestSubarraySum();
+            int result = smallestSum.FindMinSubArray(7, new int[] { 2, 1, 5, 2, 3, 2 });
             Console.ReadLine();
         }
     }
