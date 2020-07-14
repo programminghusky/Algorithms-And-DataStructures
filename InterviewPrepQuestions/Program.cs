@@ -10,8 +10,8 @@ namespace InterviewPrepQuestions
     {
         static void Main(string[] args)
         {
-            SmallestSubarraySum smallestSum = new SmallestSubarraySum();
-            int result = smallestSum.FindMinSubArray(7, new int[] { 2, 1, 5, 2, 3, 2 });
+            LongestSubstringKDistinctChars smallestSum = new LongestSubstringKDistinctChars();
+            int result = smallestSum.FindLength("cbbebi", 3);
             Console.ReadLine();
         }
     }
