@@ -10,8 +10,8 @@ namespace InterviewPrepQuestions
     {
         static void Main(string[] args)
         {
-            LongestSubstringKDistinctChars smallestSum = new LongestSubstringKDistinctChars();
-            int result = smallestSum.FindLength("cbbebi", 3);
+            FruitsInToBaskets fruits = new FruitsInToBaskets();
+            int result = fruits.FindLength(new char[] { 'A', 'B', 'C', 'B', 'B', 'C' });
             Console.ReadLine();
         }
     }
