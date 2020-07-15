@@ -10,8 +10,8 @@ namespace InterviewPrepQuestions
     {
         static void Main(string[] args) 
         {
-            TwoPointers.PairWithTargetSum pair = new TwoPointers.PairWithTargetSum();
-            var arr = pair.Search(new int[] { 3,2,4 }, 6);
+            TwoPointers.RemoveDuplicates remove = new TwoPointers.RemoveDuplicates();
+            var arr = remove.Remove(new int[] { 2, 3, 3, 3, 6, 9, 9 });
             Console.ReadLine();
         }
     }
