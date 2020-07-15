@@ -8,10 +8,10 @@ namespace InterviewPrepQuestions
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main(string[] args) 
         {
-            FruitsInToBaskets fruits = new FruitsInToBaskets();
-            int result = fruits.FindLength(new char[] { 'A', 'B', 'C', 'B', 'B', 'C' });
+            TwoPointers.PairWithTargetSum pair = new TwoPointers.PairWithTargetSum();
+            var arr = pair.Search(new int[] { 3,2,4 }, 6);
             Console.ReadLine();
         }
     }
