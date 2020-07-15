@@ -10,6 +10,8 @@ namespace InterviewPrepQuestions.TwoPointers
     {
         public int Remove(int[] arr)
         {
+            if (arr.Length < 1)
+                return 0;
             int nextNonDuplicate = 1;
             for(int i = 1; i < arr.Length; i++)
             {

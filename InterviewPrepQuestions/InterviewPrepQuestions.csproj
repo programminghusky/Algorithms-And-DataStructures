@@ -52,6 +52,7 @@
     <Compile Include="SlidingWindow\SmallestSubarraySum.cs" />
     <Compile Include="TwoPointers\PairWithTargetSum.cs" />
     <Compile Include="TwoPointers\RemoveDuplicates.cs" />
+    <Compile Include="TwoPointers\SortedArraySquares.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

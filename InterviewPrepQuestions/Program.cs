@@ -10,8 +10,8 @@ namespace InterviewPrepQuestions
     {
         static void Main(string[] args) 
         {
-            TwoPointers.RemoveDuplicates remove = new TwoPointers.RemoveDuplicates();
-            var arr = remove.Remove(new int[] { 2, 3, 3, 3, 6, 9, 9 });
+            TwoPointers.SortedArraySquares sorted = new TwoPointers.SortedArraySquares();
+            var arr = sorted.MakeSquares(new int[] { -3, -1, 0, 1, 2 });
             Console.ReadLine();
         }
     }
