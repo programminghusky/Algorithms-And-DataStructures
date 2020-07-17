@@ -13,8 +13,8 @@ namespace InterviewPrepQuestions
             //TwoPointers.SortedArraySquares sorted = new TwoPointers.SortedArraySquares();
             //var arr = sorted.MakeSquares(new int[] { -3, -1, 0, 1, 2 });
 
-            BitwiseXOR.MissingNumber num = new BitwiseXOR.MissingNumber();
-            var n = num.FindMissingNumber(new int[] { 1, 5, 2, 6, 4 });
+            BitwiseXOR.MissingSingleNumber num = new BitwiseXOR.MissingSingleNumber();
+            var n = num.SingleNumber(new int[] { 1, 4, 2, 1, 3, 2, 3 });
             Console.ReadLine();
         }
     }
