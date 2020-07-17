@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BitwiseXOR\MissingNumber.cs" />
     <Compile Include="SlidingWindow\AvgContiguous.cs" />
     <Compile Include="SlidingWindow\FruitsInToBaskets.cs" />
     <Compile Include="SlidingWindow\LongestSubstringKDistinctChars.cs" />
