@@ -17,7 +17,7 @@ namespace InterviewPrepQuestions
             //var n = num.SingleNumber(new int[] { 1, 4, 2, 1, 3, 2, 3 });
 
         
-            FastAndSlowPointers.LinkedListCycle cycle = new FastAndSlowPointers.LinkedListCycle();
+            FastAndSlowPointers.LinkedListCycleLength cycle = new FastAndSlowPointers.LinkedListCycleLength();
 
             FastAndSlowPointers.ListNode head = new FastAndSlowPointers.ListNode(1);
             head.Next = new FastAndSlowPointers.ListNode(2);
@@ -26,7 +26,7 @@ namespace InterviewPrepQuestions
             head.Next.Next.Next.Next = new FastAndSlowPointers.ListNode(5);
             head.Next.Next.Next.Next.Next = new FastAndSlowPointers.ListNode(6);
             head.Next.Next.Next.Next.Next.Next = head.Next.Next;
-            bool hasCycle = cycle.HasCycle(head);
+            int length = cycle.FindCycleLength(head);
 
             Console.ReadLine();
         }
