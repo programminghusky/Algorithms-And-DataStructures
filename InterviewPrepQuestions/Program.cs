@@ -17,16 +17,16 @@ namespace InterviewPrepQuestions
             //var n = num.SingleNumber(new int[] { 1, 4, 2, 1, 3, 2, 3 });
 
         
-            FastAndSlowPointers.LinkedListCycleStart cycle = new FastAndSlowPointers.LinkedListCycleStart();
+            FastAndSlowPointers.LinkedListMiddle cycle = new FastAndSlowPointers.LinkedListMiddle();
 
             FastAndSlowPointers.ListNode head = new FastAndSlowPointers.ListNode(1);
             head.Next = new FastAndSlowPointers.ListNode(2);
             head.Next.Next = new FastAndSlowPointers.ListNode(3);
             head.Next.Next.Next = new FastAndSlowPointers.ListNode(4);
             head.Next.Next.Next.Next = new FastAndSlowPointers.ListNode(5);
-            head.Next.Next.Next.Next.Next = new FastAndSlowPointers.ListNode(6);
-            head.Next.Next.Next.Next.Next.Next = head.Next.Next;
-            var node = cycle.FindCycleStart(head);
+            //head.Next.Next.Next.Next.Next = new FastAndSlowPointers.ListNode(6);
+            //head.Next.Next.Next.Next.Next.Next = head.Next.Next;
+            var node = cycle.FindMiddle(head);
 
             Console.ReadLine();
         }
