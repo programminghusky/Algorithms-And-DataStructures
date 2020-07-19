@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="BitwiseXOR\MissingNumber.cs" />
     <Compile Include="BitwiseXOR\MissingSingleNumber.cs" />
+    <Compile Include="FastAndSlowPointers\HappyNumber.cs" />
     <Compile Include="FastAndSlowPointers\LinkedListCycle.cs" />
     <Compile Include="FastAndSlowPointers\LinkedListCycleLength.cs" />
     <Compile Include="FastAndSlowPointers\LinkedListCycleStart.cs" />
