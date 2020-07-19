@@ -9,7 +9,7 @@ namespace InterviewPrepQuestions.FastAndSlowPointers
 {
     class ListNode
     {
-        int Value = 0;
+        public int Value = 0;
         public ListNode Next;
 
         public ListNode(int value)
