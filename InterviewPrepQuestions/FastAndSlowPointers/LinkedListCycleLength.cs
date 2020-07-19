@@ -24,7 +24,7 @@ namespace InterviewPrepQuestions.FastAndSlowPointers
             return 0;
         }
 
-        private static int CalculateLength(ListNode slow)
+        private int CalculateLength(ListNode slow)
         {
             ListNode current = slow;
             int length = 0;

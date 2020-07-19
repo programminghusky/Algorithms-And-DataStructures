@@ -47,6 +47,7 @@
     <Compile Include="BitwiseXOR\MissingSingleNumber.cs" />
     <Compile Include="FastAndSlowPointers\LinkedListCycle.cs" />
     <Compile Include="FastAndSlowPointers\LinkedListCycleLength.cs" />
+    <Compile Include="FastAndSlowPointers\LinkedListCycleStart.cs" />
     <Compile Include="SlidingWindow\AvgContiguous.cs" />
     <Compile Include="SlidingWindow\FruitsInToBaskets.cs" />
     <Compile Include="SlidingWindow\LongestSubstringKDistinctChars.cs" />
