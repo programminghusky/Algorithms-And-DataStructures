@@ -51,6 +51,7 @@
     <Compile Include="FastAndSlowPointers\LinkedListCycleStart.cs" />
     <Compile Include="FastAndSlowPointers\LinkedListMiddle.cs" />
     <Compile Include="FastAndSlowPointers\PalindromeLinkedList.cs" />
+    <Compile Include="FastAndSlowPointers\RearrangeLinkedList.cs" />
     <Compile Include="SlidingWindow\AvgContiguous.cs" />
     <Compile Include="SlidingWindow\FruitsInToBaskets.cs" />
     <Compile Include="SlidingWindow\LongestSubstringKDistinctChars.cs" />

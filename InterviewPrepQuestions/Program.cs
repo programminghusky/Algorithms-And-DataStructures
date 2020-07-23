@@ -17,18 +17,18 @@ namespace InterviewPrepQuestions
             //var n = num.SingleNumber(new int[] { 1, 4, 2, 1, 3, 2, 3 });
 
         
-            FastAndSlowPointers.PalindromeLinkedList palindrome = new FastAndSlowPointers.PalindromeLinkedList();
+            FastAndSlowPointers.RearrangeLinkedList rearrange = new FastAndSlowPointers.RearrangeLinkedList();
 
-            FastAndSlowPointers.ListNode head = new FastAndSlowPointers.ListNode(2);
-            head.Next = new FastAndSlowPointers.ListNode(4);
-            head.Next.Next = new FastAndSlowPointers.ListNode(6);
+            FastAndSlowPointers.ListNode head = new FastAndSlowPointers.ListNode(1);
+            head.Next = new FastAndSlowPointers.ListNode(2);
+            head.Next.Next = new FastAndSlowPointers.ListNode(3);
             head.Next.Next.Next = new FastAndSlowPointers.ListNode(4);
-            head.Next.Next.Next.Next = new FastAndSlowPointers.ListNode(2);
-            //head.Next.Next.Next.Next.Next = new FastAndSlowPointers.ListNode(6);
+            //head.Next.Next.Next.Next = new FastAndSlowPointers.ListNode(10);
+            //head.Next.Next.Next.Next.Next = new FastAndSlowPointers.ListNode(12);
             ////head.Next.Next.Next.Next.Next.Next = head.Next.Next;
             //var node = cycle.FindMiddle(head);
 
-            bool flag = palindrome.IsPalindrome(head);
+            rearrange.ReorderList(head);
 
             Console.ReadLine();
         }
