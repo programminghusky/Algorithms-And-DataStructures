@@ -54,6 +54,7 @@
     <Compile Include="FastAndSlowPointers\RearrangeLinkedList.cs" />
     <Compile Include="SlidingWindow\AvgContiguous.cs" />
     <Compile Include="SlidingWindow\FruitsInToBaskets.cs" />
+    <Compile Include="SlidingWindow\LongestRepeatingCharacterReplacement.cs" />
     <Compile Include="SlidingWindow\LongestSubstringKDistinctChars.cs" />
     <Compile Include="SlidingWindow\MaxSumContiguous.cs" />
     <Compile Include="Program.cs" />

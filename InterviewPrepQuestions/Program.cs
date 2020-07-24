@@ -28,8 +28,8 @@ namespace InterviewPrepQuestions
             ////head.Next.Next.Next.Next.Next.Next = head.Next.Next;
             //var node = cycle.FindMiddle(head);
 
-            SlidingWindow.NoRepeatSubstring str = new SlidingWindow.NoRepeatSubstring();
-            int length = str.LengthOfLongestSubstringOptimal("abcabcbb");
+            SlidingWindow.LongestRepeatingCharacterReplacement str = new SlidingWindow.LongestRepeatingCharacterReplacement();
+            int length = str.CharacterReplacement("abab", 2);
 
             Console.ReadLine();
         }
