@@ -29,7 +29,7 @@ namespace InterviewPrepQuestions
             //var node = cycle.FindMiddle(head);
 
             SlidingWindow.NoRepeatSubstring str = new SlidingWindow.NoRepeatSubstring();
-            int length = str.LengthOfLongestSubstring("pwwkew");
+            int length = str.LengthOfLongestSubstringOptimal("abcabcbb");
 
             Console.ReadLine();
         }

@@ -8,6 +8,31 @@ namespace InterviewPrepQuestions.SlidingWindow
 {
     class NoRepeatSubstring
     {
+        public int LengthOfLongestSubstringOptimal(string s)
+        {
+            int maxLength = 0, windowStart = 0;
+            Dictionary<char, int> charMap = new Dictionary<char, int>();
+            for(int i = 0; i < s.Length; i++)
+            {
+                char rightChar = s[i];
+                if(charMap.ContainsKey(rightChar))
+                {
+                    windowStart = Math.Max(windowStart,charMap[rightChar] + 1);
+                }
+                if (!charMap.ContainsKey(rightChar))
+                {
+                    charMap.Add(rightChar, i);
+                }
+                else
+                {
+                    charMap[rightChar] = i;
+                }
+                 maxLength = Math.Max(maxLength, i - windowStart + 1);               
+            }
+            return maxLength;
+        }
+
+
         public int LengthOfLongestSubstring(string s)
         {
             int maxLength = 0, index = 0, j = 0;
