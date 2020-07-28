@@ -10,12 +10,11 @@ namespace InterviewPrepQuestions
     {
         static void Main(string[] args) 
         {
-            //TwoPointers.SortedArraySquares sorted = new TwoPointers.SortedArraySquares();
-            //var arr = sorted.MakeSquares(new int[] { -3, -1, 0, 1, 2 });
+            TwoPointers.TripletSumToZero zero = new TwoPointers.TripletSumToZero();
+            var list = zero.ThreeSum(new int[] { -3, 0, 1, 2, -1, 1, -2 });
 
             //BitwiseXOR.MissingSingleNumber num = new BitwiseXOR.MissingSingleNumber();
             //var n = num.SingleNumber(new int[] { 1, 4, 2, 1, 3, 2, 3 });
-
 
             //FastAndSlowPointers.RearrangeLinkedList rearrange = new FastAndSlowPointers.RearrangeLinkedList();
 
@@ -28,8 +27,8 @@ namespace InterviewPrepQuestions
             ////head.Next.Next.Next.Next.Next.Next = head.Next.Next;
             //var node = cycle.FindMiddle(head);
 
-            SlidingWindow.LongestSubarrayWithOnesAfterReplacement ones = new SlidingWindow.LongestSubarrayWithOnesAfterReplacement();
-            int length = ones.LongestOnes(new int[] { 0, 1, 0, 0, 1, 1, 0, 1, 1, 0, 0, 1, 1 }, 3);
+            //SlidingWindow.LongestSubarrayWithOnesAfterReplacement ones = new SlidingWindow.LongestSubarrayWithOnesAfterReplacement();
+            //int length = ones.LongestOnes(new int[] { 0, 1, 0, 0, 1, 1, 0, 1, 1, 0, 0, 1, 1 }, 3);
 
             Console.ReadLine();
         }
