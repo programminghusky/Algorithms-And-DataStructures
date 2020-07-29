@@ -10,8 +10,8 @@ namespace InterviewPrepQuestions
     {
         static void Main(string[] args) 
         {
-            TwoPointers.TripletSumToZero zero = new TwoPointers.TripletSumToZero();
-            var list = zero.ThreeSum(new int[] { -3, 0, 1, 2, -1, 1, -2 });
+            TwoPointers.TripletSumCloseToTarget target = new TwoPointers.TripletSumCloseToTarget();
+            var list = target.ThreeSumClosest(new int[] { 1, 0, 1, 1 }, 100);
 
             //BitwiseXOR.MissingSingleNumber num = new BitwiseXOR.MissingSingleNumber();
             //var n = num.SingleNumber(new int[] { 1, 4, 2, 1, 3, 2, 3 });

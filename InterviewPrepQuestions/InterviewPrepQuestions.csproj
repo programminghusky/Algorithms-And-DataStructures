@@ -65,6 +65,7 @@
     <Compile Include="TwoPointers\PairWithTargetSum.cs" />
     <Compile Include="TwoPointers\RemoveDuplicates.cs" />
     <Compile Include="TwoPointers\SortedArraySquares.cs" />
+    <Compile Include="TwoPointers\TripletSumCloseToTarget.cs" />
     <Compile Include="TwoPointers\TripletSumToZero.cs" />
   </ItemGroup>
   <ItemGroup>
