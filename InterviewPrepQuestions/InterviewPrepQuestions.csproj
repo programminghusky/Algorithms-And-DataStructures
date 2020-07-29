@@ -67,6 +67,7 @@
     <Compile Include="TwoPointers\SortedArraySquares.cs" />
     <Compile Include="TwoPointers\TripletSumCloseToTarget.cs" />
     <Compile Include="TwoPointers\TripletSumToZero.cs" />
+    <Compile Include="TwoPointers\TripletsWithSmallerSum.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
