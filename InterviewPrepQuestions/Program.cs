@@ -10,8 +10,9 @@ namespace InterviewPrepQuestions
     {
         static void Main(string[] args) 
         {
-            TwoPointers.SubarrayProductLessThanTarget pdt = new TwoPointers.SubarrayProductLessThanTarget();
-            var list = pdt.NumSubarrayProductLessThanTarget(new int[] { 2,5,3,10, 30 },30);
+
+            //TwoPointers.SubarrayProductLessThanTarget pdt = new TwoPointers.SubarrayProductLessThanTarget();
+            //var list = pdt.NumSubarrayProductLessThanTarget(new int[] { 2,5,3,10, 30 },30);
 
             //BitwiseXOR.MissingSingleNumber num = new BitwiseXOR.MissingSingleNumber();
             //var n = num.SingleNumber(new int[] { 1, 4, 2, 1, 3, 2, 3 });
@@ -30,6 +31,8 @@ namespace InterviewPrepQuestions
             //SlidingWindow.LongestSubarrayWithOnesAfterReplacement ones = new SlidingWindow.LongestSubarrayWithOnesAfterReplacement();
             //int length = ones.LongestOnes(new int[] { 0, 1, 0, 0, 1, 1, 0, 1, 1, 0, 0, 1, 1 }, 3);
 
+            TwoPointers.DutchNationalFlag sort = new TwoPointers.DutchNationalFlag();
+            sort.SortColors(new int[] { 1, 0, 2, 1, 0, 0, 2 });
             Console.ReadLine();
         }
     }
