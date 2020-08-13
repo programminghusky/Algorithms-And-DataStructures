@@ -34,13 +34,13 @@ namespace InterviewPrepQuestions
             //TwoPointers.DutchNationalFlag sort = new TwoPointers.DutchNationalFlag();
             //sort.SortColors(new int[] { 1, 0, 2, 1, 0, 0, 2 });
 
-            TreeDepthFirstSearch.BinaryTreePathSum bst = new TreeDepthFirstSearch.BinaryTreePathSum();
+            TreeDepthFirstSearch.BinaryTreeAllPathsSum bst = new TreeDepthFirstSearch.BinaryTreeAllPathsSum();
             int[] objts = { 5, 4, 8, 11, 13, 4, 7, 2, 1 };
             for(int i = 0; i < objts.Length; i++)
             {
                 bst.InsertRecursive(objts[i]);
             }
-            bool valid =  bst.HasPathSum(TreeDepthFirstSearch.BinaryTreePathSum.Root, 22);
+            var list = bst.PathSum(TreeDepthFirstSearch.BinaryTreePathSum.Root, 22);
             Console.ReadLine();
         }
     }

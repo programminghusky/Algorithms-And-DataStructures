@@ -62,6 +62,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SlidingWindow\NoRepeatSubstring.cs" />
     <Compile Include="SlidingWindow\SmallestSubarraySum.cs" />
+    <Compile Include="TreeDepthFirstSearch\BinaryTreeAllPathsSum.cs" />
     <Compile Include="TreeDepthFirstSearch\BinaryTreePathSum.cs" />
     <Compile Include="TwoPointers\DutchNationalFlag.cs" />
     <Compile Include="TwoPointers\PairWithTargetSum.cs" />
