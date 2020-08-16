@@ -62,7 +62,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SlidingWindow\NoRepeatSubstring.cs" />
     <Compile Include="SlidingWindow\SmallestSubarraySum.cs" />
+    <Compile Include="TreeBreadthFirstSearch\BinaryTreeLevelAverages.cs" />
     <Compile Include="TreeBreadthFirstSearch\BinaryTreeLevelOrderTraversal.cs" />
+    <Compile Include="TreeBreadthFirstSearch\BinaryTreeReverseLevelOrderTraversal.cs" />
     <Compile Include="TreeDepthFirstSearch\BinaryTreeAllPathsSum.cs" />
     <Compile Include="TreeDepthFirstSearch\BinaryTreePathSum.cs" />
     <Compile Include="TreeDepthFirstSearch\SumPathNumbers.cs" />
