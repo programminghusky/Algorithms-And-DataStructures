@@ -1,4 +1,4 @@
-﻿/* Given a string and a pattern, find out if the string contains any permutation of the pattern. */
+﻿/* Given a string and a pattern, find all anagrams of the pattern in the given string. */
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,16 +7,16 @@ using System.Threading.Tasks;
 
 namespace InterviewPrepQuestions.SlidingWindow
 {
-    class StringPermutation
+    class StringAnagrams
     {
-        public bool CheckInclusion(string s1, string s2)
+        public IList<int> FindAnagrams(string s, string p)
         {
+            IList<int> indices = new List<int>();
             int windowStart = 0, matched = 0;
-
             Dictionary<char, int> charFreqMap = new Dictionary<char, int>();
-            foreach(char ch in s1)
+            foreach (char ch in p)
             {
-                if(charFreqMap.ContainsKey(ch))
+                if (charFreqMap.ContainsKey(ch))
                 {
                     charFreqMap[ch]++;
                 }
@@ -26,29 +26,25 @@ namespace InterviewPrepQuestions.SlidingWindow
                 }
             }
 
-            for(int i = 0; i < s2.Length; i++)
+            for (int i = 0; i < s.Length; i++)
             {
-                char rightChar = s2[i];
+                char rightChar = s[i];
+
                 if(charFreqMap.ContainsKey(rightChar))
                 {
                     charFreqMap[rightChar]--;
-
                     if (charFreqMap[rightChar] == 0)
-                    {
                         matched++;
-                    }
-                }
-               
-
-                if(matched == charFreqMap.Count)
-                {
-                    return true;
                 }
 
-                if(i >= s1.Length - 1)
+                if (matched == charFreqMap.Count)
+                    indices.Add(windowStart);
+
+                if(i >= p.Length - 1)
                 {
-                    char leftChar = s2[windowStart];
+                    char leftChar = s[windowStart];
                     windowStart++;
+
                     if(charFreqMap.ContainsKey(leftChar))
                     {
                         if (charFreqMap[leftChar] == 0)
@@ -58,7 +54,7 @@ namespace InterviewPrepQuestions.SlidingWindow
                     }
                 }
             }
-            return false;
+            return indices;
         }
     }
 }
