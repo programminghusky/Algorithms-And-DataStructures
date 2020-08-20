@@ -62,8 +62,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SlidingWindow\NoRepeatSubstring.cs" />
     <Compile Include="SlidingWindow\SmallestSubarraySum.cs" />
+    <Compile Include="SlidingWindow\SmallestWindowContainingSubstring.cs" />
     <Compile Include="SlidingWindow\StringAnagrams.cs" />
     <Compile Include="SlidingWindow\StringPermutation.cs" />
+    <Compile Include="SlidingWindow\WordsConcatenation.cs" />
     <Compile Include="TreeBreadthFirstSearch\BinaryTreeLevelAverages.cs" />
     <Compile Include="TreeBreadthFirstSearch\BinaryTreeLevelOrderTraversal.cs" />
     <Compile Include="TreeBreadthFirstSearch\BinaryTreeMinimumDepth.cs" />
