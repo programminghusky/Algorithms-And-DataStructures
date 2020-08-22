@@ -12,7 +12,7 @@ namespace InterviewPrepQuestions.SlidingWindow
     {
         public string MinWindow(string s, string t)
         {
-            int windowStart = 0, matched = 0;
+            int windowStart = 0, matched = 0, minLength = int.MaxValue, subStrStart = 0;
 
             Dictionary<char, int> charFreqMap = new Dictionary<char, int>();
             foreach (char ch in t)
@@ -27,38 +27,36 @@ namespace InterviewPrepQuestions.SlidingWindow
                 }
             }
 
-            for (int i = 0; i < s.Length; i++)
+           for(int i = 0; i < s.Length;i++)
             {
                 char rightChar = s[i];
-                if (charFreqMap.ContainsKey(rightChar))
+                if(charFreqMap.ContainsKey(rightChar))
                 {
                     charFreqMap[rightChar]--;
-
                     if (charFreqMap[rightChar] >= 0)
                     {
                         matched++;
                     }
                 }
-
-                if (matched == charFreqMap.Count)
+                while(matched == t.Length)
                 {
-                    return true;
-                }
+                    if(minLength > (i - windowStart + 1))
+                    {
+                        minLength = i - windowStart + 1;
+                        subStrStart = windowStart;
+                    }
 
-                if (i >= t.Length - 1)
-                {
                     char leftChar = s[windowStart];
-                    windowStart++;
-                    if (charFreqMap.ContainsKey(leftChar))
+                    if(charFreqMap.ContainsKey(leftChar))
                     {
                         if (charFreqMap[leftChar] == 0)
                             matched--;
-
                         charFreqMap[leftChar]++;
                     }
+
                 }
             }
-            return false;
+            return minLength > s.Length ? "" : s.Substring(subStrStart, minLength);
         }
     }
 }
