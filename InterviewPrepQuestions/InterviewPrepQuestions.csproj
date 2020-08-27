@@ -79,6 +79,7 @@
     <Compile Include="TwoPointers\QuadrupleSumToTarget.cs" />
     <Compile Include="TwoPointers\RemoveDuplicates.cs" />
     <Compile Include="TwoPointers\SortedArraySquares.cs" />
+    <Compile Include="TwoPointers\StringsContainingBackspace.cs" />
     <Compile Include="TwoPointers\SubarrayProductLessThanTarget.cs" />
     <Compile Include="TwoPointers\TripletSumCloseToTarget.cs" />
     <Compile Include="TwoPointers\TripletSumToZero.cs" />
