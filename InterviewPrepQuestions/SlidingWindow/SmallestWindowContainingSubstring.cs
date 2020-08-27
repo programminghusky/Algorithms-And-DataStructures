@@ -45,8 +45,8 @@ namespace InterviewPrepQuestions.SlidingWindow
                         minLength = i - windowStart + 1;
                         subStrStart = windowStart;
                     }
-
                     char leftChar = s[windowStart];
+                    windowStart++;
                     if(charFreqMap.ContainsKey(leftChar))
                     {
                         if (charFreqMap[leftChar] == 0)
