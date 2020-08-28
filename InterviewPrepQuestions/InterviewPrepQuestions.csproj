@@ -52,6 +52,8 @@
     <Compile Include="FastAndSlowPointers\LinkedListMiddle.cs" />
     <Compile Include="FastAndSlowPointers\PalindromeLinkedList.cs" />
     <Compile Include="FastAndSlowPointers\RearrangeLinkedList.cs" />
+    <Compile Include="MergeIntervals\MergeOverlappingIntervals.cs" />
+    <Compile Include="ReverseALinkedList\ReverseLinkedList.cs" />
     <Compile Include="SlidingWindow\AvgContiguous.cs" />
     <Compile Include="SlidingWindow\FruitsInToBaskets.cs" />
     <Compile Include="SlidingWindow\LongestRepeatingCharacterReplacement.cs" />
