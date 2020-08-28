@@ -31,16 +31,17 @@ namespace InterviewPrepQuestions
             //SlidingWindow.LongestSubarrayWithOnesAfterReplacement ones = new SlidingWindow.LongestSubarrayWithOnesAfterReplacement();
             //int length = ones.LongestOnes(new int[] { 0, 1, 0, 0, 1, 1, 0, 1, 1, 0, 0, 1, 1 }, 3);
 
-            //TwoPointers.DutchNationalFlag sort = new TwoPointers.DutchNationalFlag();
-            //sort.SortColors(new int[] { 1, 0, 2, 1, 0, 0, 2 });
+            TwoPointers.MinimumWindowSort sort = new TwoPointers.MinimumWindowSort();
+            sort.FindUnsortedSubarray(new int[] {2, 6, 4, 8,10, 9, 15 });
+            // 1 2 3 5 6
 
-            TreeDepthFirstSearch.BinaryTreeAllPathsSum bst = new TreeDepthFirstSearch.BinaryTreeAllPathsSum();
-            int[] objts = { 5, 4, 8, 11, 13, 4, 7, 2, 1 };
-            for(int i = 0; i < objts.Length; i++)
-            {
-                bst.InsertRecursive(objts[i]);
-            }
-            var list = bst.PathSum(TreeDepthFirstSearch.BinaryTreePathSum.Root, 22);
+            //TreeDepthFirstSearch.BinaryTreeAllPathsSum bst = new TreeDepthFirstSearch.BinaryTreeAllPathsSum();
+            //int[] objts = { 5, 4, 8, 11, 13, 4, 7, 2, 1 };
+            //for(int i = 0; i < objts.Length; i++)
+            //{
+            //    bst.InsertRecursive(objts[i]);
+            //}
+            //var list = bst.PathSum(TreeDepthFirstSearch.BinaryTreePathSum.Root, 22);
             Console.ReadLine();
         }
     }

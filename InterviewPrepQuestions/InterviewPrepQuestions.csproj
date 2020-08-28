@@ -75,6 +75,7 @@
     <Compile Include="TreeDepthFirstSearch\BinaryTreePathSum.cs" />
     <Compile Include="TreeDepthFirstSearch\SumPathNumbers.cs" />
     <Compile Include="TwoPointers\DutchNationalFlag.cs" />
+    <Compile Include="TwoPointers\MinimumWindowSort.cs" />
     <Compile Include="TwoPointers\PairWithTargetSum.cs" />
     <Compile Include="TwoPointers\QuadrupleSumToTarget.cs" />
     <Compile Include="TwoPointers\RemoveDuplicates.cs" />
