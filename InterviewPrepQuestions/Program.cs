@@ -31,8 +31,10 @@ namespace InterviewPrepQuestions
             //SlidingWindow.LongestSubarrayWithOnesAfterReplacement ones = new SlidingWindow.LongestSubarrayWithOnesAfterReplacement();
             //int length = ones.LongestOnes(new int[] { 0, 1, 0, 0, 1, 1, 0, 1, 1, 0, 0, 1, 1 }, 3);
 
-            TwoPointers.MinimumWindowSort sort = new TwoPointers.MinimumWindowSort();
-            sort.FindUnsortedSubarray(new int[] {2, 6, 4, 8,10, 9, 15 });
+            //TwoPointers.MinimumWindowSort sort = new TwoPointers.MinimumWindowSort();
+            //sort.FindUnsortedSubarray(new int[] {2, 6, 4, 8,10, 9, 15 });
+            MergeIntervals.MergeOverlappingIntervals mg = new MergeIntervals.MergeOverlappingIntervals();
+            var intervals = mg.Merge(new int[][] { new int[]{ 6, 7 }, new int[]{ 3, 4 }, new int[]{ 11, 15 } });
             // 1 2 3 5 6
 
             //TreeDepthFirstSearch.BinaryTreeAllPathsSum bst = new TreeDepthFirstSearch.BinaryTreeAllPathsSum();

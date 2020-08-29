@@ -1,4 +1,6 @@
-﻿using System;
+﻿/* Given the head of a Singly LinkedList, reverse the LinkedList. 
+ * Write a function to return the new head of the reversed LinkedList. */
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
