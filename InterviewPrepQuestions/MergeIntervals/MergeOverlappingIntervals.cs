@@ -14,6 +14,8 @@ namespace InterviewPrepQuestions.MergeIntervals
             return x[0] - y[0];
         }
     }
+    //Input: intervals = [[1,3],[2,6],[8,10],[15,18]]
+   // Output: [[1,6],[8,10],[15,18]]
     class MergeOverlappingIntervals
     {
         public int[][] Merge(int[][] intervals)
@@ -22,7 +24,23 @@ namespace InterviewPrepQuestions.MergeIntervals
                 return intervals;
             Array.Sort(intervals, new ArrayComparer());
 
-            return intervals;
+            int start = int.MaxValue;
+            int end = 0;
+            List<int[]> result = new List<int[]>();
+            int count = intervals.Length;
+
+            for(int i = 0; i< count;i++)
+            {
+                start = Math.Min(start, intervals[i][0]);
+                end = Math.Max(end, intervals[i][1]);
+                if(i == count - 1 || end < intervals[i + 1][0])
+                {
+                    result.Add(new int[2] { start, end });
+                    start = int.MaxValue;
+                    end = 0;
+                }
+            }
+            return result.ToArray();
         }
     }
 }
