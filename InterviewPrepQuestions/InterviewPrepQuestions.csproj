@@ -54,6 +54,7 @@
     <Compile Include="FastAndSlowPointers\PalindromeLinkedList.cs" />
     <Compile Include="FastAndSlowPointers\RearrangeLinkedList.cs" />
     <Compile Include="MergeIntervals\InsertInterval.cs" />
+    <Compile Include="MergeIntervals\IntervalsIntersection.cs" />
     <Compile Include="MergeIntervals\MergeOverlappingIntervals.cs" />
     <Compile Include="ReverseALinkedList\ReverseASubList.cs" />
     <Compile Include="ReverseALinkedList\ReverseEveryKElementSubList.cs" />
