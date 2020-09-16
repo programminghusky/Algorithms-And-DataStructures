@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="BitwiseXOR\MissingNumber.cs" />
     <Compile Include="BitwiseXOR\MissingSingleNumber.cs" />
+    <Compile Include="CyclicSort\CyclicSort.cs" />
     <Compile Include="FastAndSlowPointers\CircularArray.cs" />
     <Compile Include="FastAndSlowPointers\HappyNumber.cs" />
     <Compile Include="FastAndSlowPointers\LinkedListCycle.cs" />
@@ -53,9 +54,11 @@
     <Compile Include="FastAndSlowPointers\LinkedListMiddle.cs" />
     <Compile Include="FastAndSlowPointers\PalindromeLinkedList.cs" />
     <Compile Include="FastAndSlowPointers\RearrangeLinkedList.cs" />
+    <Compile Include="MergeIntervals\ConflictingAppointments.cs" />
     <Compile Include="MergeIntervals\InsertInterval.cs" />
     <Compile Include="MergeIntervals\IntervalsIntersection.cs" />
     <Compile Include="MergeIntervals\MergeOverlappingIntervals.cs" />
+    <Compile Include="MergeIntervals\MinimumMeetingRooms.cs" />
     <Compile Include="ReverseALinkedList\ReverseASubList.cs" />
     <Compile Include="ReverseALinkedList\ReverseEveryKElementSubList.cs" />
     <Compile Include="ReverseALinkedList\ReverseLinkedList.cs" />

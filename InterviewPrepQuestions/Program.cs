@@ -33,10 +33,13 @@ namespace InterviewPrepQuestions
 
             //TwoPointers.MinimumWindowSort sort = new TwoPointers.MinimumWindowSort();
             //sort.FindUnsortedSubarray(new int[] {2, 6, 4, 8,10, 9, 15 });
-            MergeIntervals.MergeOverlappingIntervals mg = new MergeIntervals.MergeOverlappingIntervals();
-            var intervals = mg.Merge(new int[][] { new int[]{ 6, 7 }, new int[]{ 3, 4 }, new int[]{ 11, 15 } });
+            // MergeIntervals.MergeOverlappingIntervals mg = new MergeIntervals.MergeOverlappingIntervals();
+            // var intervals = mg.Merge(new int[][] { new int[]{ 6, 7 }, new int[]{ 3, 4 }, new int[]{ 11, 15 } });
             // 1 2 3 5 6
 
+            CyclicSort.CyclicSort cy = new CyclicSort.CyclicSort();
+            int[] arr = new int[] { 2, 6, 4, 3, 1, 5 };
+            cy.Sort(arr);
             //TreeDepthFirstSearch.BinaryTreeAllPathsSum bst = new TreeDepthFirstSearch.BinaryTreeAllPathsSum();
             //int[] objts = { 5, 4, 8, 11, 13, 4, 7, 2, 1 };
             //for(int i = 0; i < objts.Length; i++)
