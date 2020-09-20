@@ -1,4 +1,6 @@
-﻿using System;
+﻿/* We are given an array containing ‘n’ distinct numbers taken from the range 0 to ‘n’.
+ * Since the array has only ‘n’ numbers out of the total ‘n+1’ numbers, find the missing number.*/
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,16 +12,16 @@ namespace InterviewPrepQuestions.CyclicSort
     {
         public int FindMissingNum(int[] nums)
         {
-            for (int i = 0; i < nums.Length; i++)
+            int i = 0;
+            while(i < nums.Length)
             {
-                while (nums[i] != i && nums[i] < nums.Length)
-                {
-                    //Swap with
+                if (nums[i] < nums.Length && nums[i] != nums[nums[i]])
                     Swap(nums, i, nums[i]);
-                }
+                else
+                    i++;
             }
-
-            for(int i = 0; i < nums.Length; i++)
+            // the first number that is out of place is returned
+            for(i = 0; i < nums.Length; i++)
             {
                 if (nums[i] != i)
                     return i;
