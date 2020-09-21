@@ -16,7 +16,7 @@ namespace InterviewPrepQuestions.CyclicSort
             int i = 0;
             while (i < nums.Length )
             {
-                if (i + 1 != nums[i])
+                if (nums[i] != nums[nums[i] - 1])
                     Swap(nums, i, nums[i] - 1);
                 else
                     i++;
@@ -24,8 +24,8 @@ namespace InterviewPrepQuestions.CyclicSort
 
             for(int j = 0; j< nums.Length;j++)
             {
-                if (i + 1 != nums[i])
-                    missing.Add(i + 1);
+                if (j + 1 != nums[j])
+                    missing.Add(j + 1);
             }
             return missing;
         }
