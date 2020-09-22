@@ -46,7 +46,9 @@
     <Compile Include="BitwiseXOR\MissingNumber.cs" />
     <Compile Include="BitwiseXOR\MissingSingleNumber.cs" />
     <Compile Include="CyclicSort\CyclicSort.cs" />
+    <Compile Include="CyclicSort\FindAllDuplicateNumbers.cs" />
     <Compile Include="CyclicSort\FindAllMissingNumbers.cs" />
+    <Compile Include="CyclicSort\FindDuplicateNumber.cs" />
     <Compile Include="CyclicSort\FindMissingNumber.cs" />
     <Compile Include="FastAndSlowPointers\CircularArray.cs" />
     <Compile Include="FastAndSlowPointers\HappyNumber.cs" />
