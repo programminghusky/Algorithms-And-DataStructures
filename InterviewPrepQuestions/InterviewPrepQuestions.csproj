@@ -51,6 +51,7 @@
     <Compile Include="CyclicSort\FindAllMissingNumbers.cs" />
     <Compile Include="CyclicSort\FindDuplicateNumber.cs" />
     <Compile Include="CyclicSort\FindMissingNumber.cs" />
+    <Compile Include="CyclicSort\FirstKMissingPositiveNumbers.cs" />
     <Compile Include="CyclicSort\SmallestMissingPositive.cs" />
     <Compile Include="FastAndSlowPointers\CircularArray.cs" />
     <Compile Include="FastAndSlowPointers\HappyNumber.cs" />
@@ -105,6 +106,8 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="ModifiedBinarySearch\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
