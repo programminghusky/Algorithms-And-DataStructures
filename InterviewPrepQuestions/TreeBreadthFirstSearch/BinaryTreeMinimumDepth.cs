@@ -14,12 +14,26 @@ namespace InterviewPrepQuestions.TreeBreadthFirstSearch
         {
             if (root == null)
                 return 0;
-            if (root.left == null)
-                return MinDepth(root.right) + 1;
-            if (root.right == null)
-                return MinDepth(root.left) + 1;
 
-            return Math.Min((1 + MinDepth(root.left)), (1 + MinDepth(root.right)));
+            Queue<TreeNode> queue = new Queue<TreeNode>();
+            queue.Enqueue(root);
+            int minTreeDepth = 0;
+            while (queue.Count != 0)
+            {
+                minTreeDepth++;
+                int levelSize = queue.Count;
+                for (int i = 0; i < levelSize; i++)
+                {
+                    TreeNode currentNode = queue.Dequeue();
+                    if (currentNode.left == null && currentNode.right == null)
+                        return minTreeDepth;
+                    if (currentNode.left != null)
+                        queue.Enqueue(currentNode.left);
+                    if (currentNode.right != null)
+                        queue.Enqueue(currentNode.right);
+                }
+            }
+            return minTreeDepth;
         }
     }
 }
