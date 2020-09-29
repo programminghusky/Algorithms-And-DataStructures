@@ -87,7 +87,11 @@
     <Compile Include="TreeBreadthFirstSearch\BinaryTreeLevelOrderTraversal.cs" />
     <Compile Include="TreeBreadthFirstSearch\BinaryTreeMinimumDepth.cs" />
     <Compile Include="TreeBreadthFirstSearch\BinaryTreeReverseLevelOrderTraversal.cs" />
+    <Compile Include="TreeBreadthFirstSearch\ConnectLevelOrderSiblings.cs" />
+    <Compile Include="TreeBreadthFirstSearch\LargestValueInEachTreeLevel.cs" />
     <Compile Include="TreeBreadthFirstSearch\LevelOrderSuccessor.cs" />
+    <Compile Include="TreeBreadthFirstSearch\MaximumDepth.cs" />
+    <Compile Include="TreeBreadthFirstSearch\ZigZagTraversal.cs" />
     <Compile Include="TreeDepthFirstSearch\BinaryTreeAllPathsSum.cs" />
     <Compile Include="TreeDepthFirstSearch\BinaryTreePathSum.cs" />
     <Compile Include="TreeDepthFirstSearch\SumPathNumbers.cs" />

@@ -1,4 +1,5 @@
-﻿using System;
+﻿/* Given a binary tree, find its maximum depth (or height). */
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
