@@ -87,6 +87,7 @@
     <Compile Include="TreeBreadthFirstSearch\BinaryTreeLevelOrderTraversal.cs" />
     <Compile Include="TreeBreadthFirstSearch\BinaryTreeMinimumDepth.cs" />
     <Compile Include="TreeBreadthFirstSearch\BinaryTreeReverseLevelOrderTraversal.cs" />
+    <Compile Include="TreeBreadthFirstSearch\ConnectAllLevelOrderSiblings.cs" />
     <Compile Include="TreeBreadthFirstSearch\ConnectLevelOrderSiblings.cs" />
     <Compile Include="TreeBreadthFirstSearch\LargestValueInEachTreeLevel.cs" />
     <Compile Include="TreeBreadthFirstSearch\LevelOrderSuccessor.cs" />
