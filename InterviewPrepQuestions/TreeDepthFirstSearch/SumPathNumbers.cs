@@ -21,7 +21,7 @@ namespace InterviewPrepQuestions.TreeDepthFirstSearch
         {
             if (node == null)
                 return;
-            curNum = curNum * 10 + node.Value;
+            curNum = curNum * 10 + node.val;
             if(node.left == null && node.right == null)
             {
                 sum += curNum;

@@ -36,8 +36,6 @@ namespace InterviewPrepQuestions.TreeBreadthFirstSearch
                     }
                 }
             }
-
-
             return result;
         }
     }

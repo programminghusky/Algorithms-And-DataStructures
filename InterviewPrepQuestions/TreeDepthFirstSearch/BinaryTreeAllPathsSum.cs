@@ -34,7 +34,7 @@ namespace InterviewPrepQuestions.TreeDepthFirstSearch
                 root.right = null;
                 return root;
             }
-            if (num < Root.Value)
+            if (num < Root.val)
             {
                 root.left = InsRecursive(root.left, num);
             }
@@ -58,16 +58,16 @@ namespace InterviewPrepQuestions.TreeDepthFirstSearch
             if (node == null)
                 return;
 
-            pathNodes.Add(node.Value);
+            pathNodes.Add(node.val);
 
-            if (remainingSum == node.Value && node.left == null && node.right == null)
+            if (remainingSum == node.val && node.left == null && node.right == null)
             {
                 allPaths.Add(new List<int>(pathNodes));
             }
             else
             {
-                RecurseTree(node.left, remainingSum - node.Value, pathNodes, allPaths);
-                RecurseTree(node.right, remainingSum - node.Value, pathNodes, allPaths);
+                RecurseTree(node.left, remainingSum - node.val, pathNodes, allPaths);
+                RecurseTree(node.right, remainingSum - node.val, pathNodes, allPaths);
             }
 
             pathNodes.RemoveAt(pathNodes.Count - 1);

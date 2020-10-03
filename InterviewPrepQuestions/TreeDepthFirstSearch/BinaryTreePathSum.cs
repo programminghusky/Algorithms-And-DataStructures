@@ -12,10 +12,10 @@ namespace InterviewPrepQuestions.TreeDepthFirstSearch
     {
         public TreeNode left;
         public TreeNode right;
-        public int Value;
-        public TreeNode(int val)
+        public int val;
+        public TreeNode(int value)
         {
-            Value = val;
+            val = value;
         }
     }
 
@@ -45,7 +45,7 @@ namespace InterviewPrepQuestions.TreeDepthFirstSearch
                 root.right = null;
                 return root;
             }
-            if (num < Root.Value)
+            if (num < Root.val)
             {
                 root.left = InsRecursive(root.left, num);
             }
@@ -60,7 +60,7 @@ namespace InterviewPrepQuestions.TreeDepthFirstSearch
         {
             if (root == null)
                 return false;
-            sum -= root.Value;
+            sum -= root.val;
             if (sum == 0 && root.left == null && root.right == null)
                 return true;
             return (HasPathSum(root.left, sum) || HasPathSum(root.right, sum));

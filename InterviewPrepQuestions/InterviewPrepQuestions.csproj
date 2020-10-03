@@ -92,9 +92,11 @@
     <Compile Include="TreeBreadthFirstSearch\LargestValueInEachTreeLevel.cs" />
     <Compile Include="TreeBreadthFirstSearch\LevelOrderSuccessor.cs" />
     <Compile Include="TreeBreadthFirstSearch\MaximumDepth.cs" />
+    <Compile Include="TreeBreadthFirstSearch\RightVewOfBinaryTree.cs" />
     <Compile Include="TreeBreadthFirstSearch\ZigZagTraversal.cs" />
     <Compile Include="TreeDepthFirstSearch\BinaryTreeAllPathsSum.cs" />
     <Compile Include="TreeDepthFirstSearch\BinaryTreePathSum.cs" />
+    <Compile Include="TreeDepthFirstSearch\MaxPathSum.cs" />
     <Compile Include="TreeDepthFirstSearch\SumPathNumbers.cs" />
     <Compile Include="TwoPointers\DutchNationalFlag.cs" />
     <Compile Include="TwoPointers\MinimumWindowSort.cs" />
