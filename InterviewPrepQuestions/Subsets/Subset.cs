@@ -21,7 +21,7 @@ namespace InterviewPrepQuestions.Subsets
                 int length = subsets.Count;
                 for(int i = 0; i< length ; i++)
                 {
-                    IList<int> set = new List<int>( subsets[i]);
+                    IList<int> set = new List<int>(subsets[i]);
                     set.Add(curNum);
                     subsets.Add(set);
                 }
