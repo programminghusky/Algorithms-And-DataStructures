@@ -83,6 +83,8 @@
     <Compile Include="SlidingWindow\StringAnagrams.cs" />
     <Compile Include="SlidingWindow\StringPermutation.cs" />
     <Compile Include="SlidingWindow\WordsConcatenation.cs" />
+    <Compile Include="Subsets\Permutations.cs" />
+    <Compile Include="Subsets\StringPermutaionsChangingCase.cs" />
     <Compile Include="Subsets\Subset.cs" />
     <Compile Include="Subsets\SubsetsWithDuplicates.cs" />
     <Compile Include="TreeBreadthFirstSearch\BinaryTreeLevelAverages.cs" />
