@@ -84,10 +84,13 @@
     <Compile Include="SlidingWindow\StringPermutation.cs" />
     <Compile Include="SlidingWindow\WordsConcatenation.cs" />
     <Compile Include="Subsets\BalancedParantheses.cs" />
+    <Compile Include="Subsets\DifferentWaysToAddParantheses.cs" />
     <Compile Include="Subsets\Permutations.cs" />
     <Compile Include="Subsets\StringPermutaionsChangingCase.cs" />
+    <Compile Include="Subsets\StructurallyUniqueBinarySearchTree.cs" />
     <Compile Include="Subsets\Subset.cs" />
     <Compile Include="Subsets\SubsetsWithDuplicates.cs" />
+    <Compile Include="Subsets\UniqueGeneralizedAbbreviations.cs" />
     <Compile Include="TreeBreadthFirstSearch\BinaryTreeLevelAverages.cs" />
     <Compile Include="TreeBreadthFirstSearch\BinaryTreeLevelOrderTraversal.cs" />
     <Compile Include="TreeBreadthFirstSearch\BinaryTreeMinimumDepth.cs" />
