@@ -84,6 +84,7 @@
     <Compile Include="SlidingWindow\StringPermutation.cs" />
     <Compile Include="SlidingWindow\WordsConcatenation.cs" />
     <Compile Include="Subsets\BalancedParantheses.cs" />
+    <Compile Include="Subsets\CountOfStructurallyUniqueBinarySearchTree.cs" />
     <Compile Include="Subsets\DifferentWaysToAddParantheses.cs" />
     <Compile Include="Subsets\Permutations.cs" />
     <Compile Include="Subsets\StringPermutaionsChangingCase.cs" />
