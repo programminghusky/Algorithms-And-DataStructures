@@ -15,6 +15,25 @@ namespace InterviewPrepQuestions.Subsets
             int wordLen = word.Length;
             Queue<AbbreviatedWord> queue = new Queue<AbbreviatedWord>();
             queue.Enqueue(new AbbreviatedWord(new StringBuilder(), 0, 0));
+            while(queue.Count !=0)
+            {
+                AbbreviatedWord abWord = queue.Dequeue();
+                if(abWord.Start == wordLen)
+                {
+                    if (abWord.Count != 0)
+                        abWord.Str.Append(abWord.Count);
+                    result.Add(abWord.Str.ToString());
+                }
+                else
+                {
+                    queue.Enqueue(new AbbreviatedWord(new StringBuilder(abWord.Str.ToString()), abWord.Start + 1, abWord.Count + 1));
+
+                    if (abWord.Count != 0)
+                        abWord.Str.Append(abWord.Count);
+                    queue.Enqueue(new AbbreviatedWord(new StringBuilder(abWord.Str.ToString()).Append(word[abWord.Start]), abWord.Start + 1, 0));
+                }
+            }
+            return result;
         }
     }
 
