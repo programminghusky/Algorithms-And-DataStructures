@@ -68,6 +68,7 @@
     <Compile Include="MergeIntervals\MinimumMeetingRooms.cs" />
     <Compile Include="ModifiedBinarySearch\CeilingOfANumber.cs" />
     <Compile Include="ModifiedBinarySearch\FloorOfANumber.cs" />
+    <Compile Include="ModifiedBinarySearch\NumberRange.cs" />
     <Compile Include="ModifiedBinarySearch\OrderAgnosticBinarySearch.cs" />
     <Compile Include="ModifiedBinarySearch\SmallestLetterGreaterThanTarget.cs" />
     <Compile Include="ReverseALinkedList\ReverseASubList.cs" />
