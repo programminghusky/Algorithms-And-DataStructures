@@ -35,7 +35,7 @@ namespace InterviewPrepQuestions.ModifiedBinarySearch
             while(reader.Get(end) < target)
             {
                 int newStart = end + 1;
-                end += (end - start + 1) * 2;
+                end += (end * 2);
                 start = newStart;
             }
             return BinarySearch(reader, target, start, end);

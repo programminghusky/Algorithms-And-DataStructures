@@ -45,8 +45,7 @@ namespace InterviewPrepQuestions
             //bst.InsertRecursive(2);
             //bst.InsertRecursive(3);
             //int val = bst.MaxPathSum1(bst.Root);
-            ModifiedBinarySearch.NumberRange number = new ModifiedBinarySearch.NumberRange();
-            int[] array = number.SearchRange(new int[] { 5, 7, 7, 8, 8, 10 }, 8);
+            
             //int[] objts = { 5, 4, 8, 11, 13, 4, 7, 2, 1 };
             //for(int i = 0; i < objts.Length; i++)
             //{
