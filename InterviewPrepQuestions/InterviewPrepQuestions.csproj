@@ -75,6 +75,7 @@
     <Compile Include="ModifiedBinarySearch\SearchBitonicArraycs.cs" />
     <Compile Include="ModifiedBinarySearch\SearchInASortedInfiniteArray.cs" />
     <Compile Include="ModifiedBinarySearch\SearchRotatedArray.cs" />
+    <Compile Include="ModifiedBinarySearch\SearchRotatedArrayWithDuplicates.cs" />
     <Compile Include="ModifiedBinarySearch\SmallestLetterGreaterThanTarget.cs" />
     <Compile Include="ReverseALinkedList\ReverseASubList.cs" />
     <Compile Include="ReverseALinkedList\ReverseEveryKElementSubList.cs" />
