@@ -52,6 +52,7 @@ namespace InterviewPrepQuestions
             //    bst.InsertRecursive(objts[i]);
             //}
             //var list = bst.PathSum(TreeDepthFirstSearch.BinaryTreePathSum.Root, 22);
+            
             Console.ReadLine();
           
         }
